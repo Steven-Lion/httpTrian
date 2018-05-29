@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.example.com.httpdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="MyCLick"
+        android:textSize="26sp"
+        android:text="Get请求Demo" />
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="MyCLick"
+        android:textSize="26sp"
+        android:text="Post请求Demo" />
+    <Button
+        android:id="@+id/btnAsynchTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnPost"
+        android:layout_marginTop="30dp"
+        android:onClick="MyCLick"
+        android:textSize="26sp"
+        android:text="异步任务Demo" />
+</RelativeLayout>
